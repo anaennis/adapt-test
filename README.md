@@ -40,7 +40,6 @@ Step 3 = ImageNet normalisation, step 4 = checkpoint normalisation.
 - AGENT_LOG.md: declarations and results, append only. Entries
   1-23. This is the authoritative record.
 - CONTEXT.md: background on the base-model question (written 4 Nov).
-  The text is repeated three times; the copies are identical.
 - embed_vit.py: embeds windows with a DINOv3 model.
 - p3_score_new.py: ridge scoring and gap shares.
 - *.sbatch: one per job (repro_d1, dl_vitl, vitl_web_t1,
