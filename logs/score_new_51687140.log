@@ -1,0 +1,56 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) devel   2) math
+sh03-03n18.int
+Mon Nov  9 11:21:44 PST 2026
+feature sets: ['D1', 'A1_i', 'repro_5000', 'vitl_sat', 'vitl_sat_ckpt', 'vitl_web']
+repro: {'mag_r': {'reference_share': 0.5905631, 'share': 0.5905620984351242, 'abs_diff': 1.0015648758132656e-06, 'within_tol': True}, 'r-z': {'reference_share': 0.4990124, 'share': 0.49901223652498117, 'abs_diff': 1.6347501885505267e-07, 'within_tol': True}, 'tol': 0.0005, 'pass': True}
+main all D1 E1 done (0.7 min)
+main all D1 E2 done (1.2 min)
+main all D1 E3 done (2.0 min)
+main all A1_i E1 done (2.3 min)
+main all A1_i E2 done (2.9 min)
+main all A1_i E3 done (3.6 min)
+main all repro_5000 E1 done (3.9 min)
+main all repro_5000 E2 done (4.5 min)
+main all repro_5000 E3 done (5.2 min)
+main all vitl_sat E1 done (5.6 min)
+main all vitl_sat E2 done (6.4 min)
+main all vitl_sat E3 done (7.6 min)
+main all vitl_sat_ckpt E1 done (7.9 min)
+main all vitl_sat_ckpt E2 done (8.7 min)
+main all vitl_sat_ckpt E3 done (9.9 min)
+main all vitl_web E1 done (10.3 min)
+main all vitl_web E2 done (11.3 min)
+main all vitl_web E3 done (12.6 min)
+/scratch/users/anaennis/aion-tokenizer-diagnostic/adapt-test/p3_score_new.py:88: RuntimeWarning: divide by zero encountered in divide
+  return sp, den, (sp["v"] - sp["d"]) / den, (r(pv) - r(pd)) / (r(pa) - r(pd))
+cmp/gap all done (22.2 min)
+main gal D1 E1 done (22.3 min)
+main gal D1 E2 done (22.6 min)
+main gal D1 E3 done (23.0 min)
+main gal A1_i E1 done (23.1 min)
+main gal A1_i E2 done (23.3 min)
+main gal A1_i E3 done (23.7 min)
+main gal repro_5000 E1 done (23.8 min)
+main gal repro_5000 E2 done (24.1 min)
+main gal repro_5000 E3 done (24.5 min)
+main gal vitl_sat E1 done (24.7 min)
+main gal vitl_sat E2 done (25.1 min)
+main gal vitl_sat E3 done (25.8 min)
+main gal vitl_sat_ckpt E1 done (26.0 min)
+main gal vitl_sat_ckpt E2 done (26.5 min)
+main gal vitl_sat_ckpt E3 done (27.2 min)
+main gal vitl_web E1 done (27.4 min)
+main gal vitl_web E2 done (27.8 min)
+main gal vitl_web E3 done (28.5 min)
+cmp/gap gal done (28.9 min)
+decision: {"final_present": []}
+S4-S3 mag_r|E1|centered pooled diff +0.0374 ci95 [+0.0200,+0.0581] neither; per-brick sign [1, 1, 1, 1]
+S4-S3 star_vs_galaxy|E1|centered pooled diff -0.0055 ci95 [-0.0200,+0.0085] neither; per-brick sign [-1, -1, -1, 1]
+S4-S3 g-r|E1|centered pooled diff +0.0294 ci95 [+0.0041,+0.0552] neither; per-brick sign [1, 1, 1, 1]
+S4-S3 r-z|E1|centered pooled diff +0.0163 ci95 [-0.0117,+0.0455] neither; per-brick sign [1, 1, 1, -1]
+S4-S3 log10_size|E1|centered pooled diff +0.0160 ci95 [-0.0084,+0.0410] neither; per-brick sign [1, -1, -1, 1]
+P3 NEW DONE (29.6 min)
+Mon Nov  9 11:51:42 PST 2026

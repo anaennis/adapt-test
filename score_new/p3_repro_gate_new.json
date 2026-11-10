@@ -1,0 +1,16 @@
+{
+ "mag_r": {
+  "reference_share": 0.5905631,
+  "share": 0.5905620984351242,
+  "abs_diff": 1.0015648758132656e-06,
+  "within_tol": true
+ },
+ "r-z": {
+  "reference_share": 0.4990124,
+  "share": 0.49901223652498117,
+  "abs_diff": 1.6347501885505267e-07,
+  "within_tol": true
+ },
+ "tol": 0.0005,
+ "pass": true
+}

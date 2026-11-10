@@ -1,0 +1,8 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) devel   2) math
+sh04-14n16.int
+Wed Nov  4 14:25:29 PST 2026
+embed_vit.py: FAILED
+sha256sum: WARNING: 1 computed checksum did NOT match

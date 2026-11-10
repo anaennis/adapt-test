@@ -1,0 +1,26 @@
+{
+ "declared": "TNB-0 Gate 3a PART D (NEW script). Usage: p2_embed.py aion | d1 | real_5000 | control_2000.\nBlocks (resumable: a block whose output exists with the right shape is skipped):\n main_<brick> 96 px, 8 conditions (objects_main_<brick>.csv), all 8 bricks;\n desi_<brick> 96 px centered only, objects = union of objects_desi_<brick>_\n   {strict,relaxed}.csv (Tractor row order), 5 gate3 DESI bricks; pilot\n   1501p022 for d1 only;\n d1 only: main_<brick> 256 px (centered, x+48) for the 5 gate3 DESI bricks;\n   desi_<brick> 256 px (centered, x+48) for those 5 + pilot.\nEncoders: aion = AION-1 base as day3a (L6 top, 2 threads, image tokens only,\n 576 encoder tokens, DES-G/R/I/Z, variants (i), (ii)) -> (N, C, 2, 768);\n d1 = frozen DINOv3 ViT-B/16, S1, mean-patch and oracle object-patch pooling\n (day3a) -> (N, C, 2, 768), plus objpatch counts (negative = fallback) and,\n at 96 px, B0 (common3a.b0, pilot DECaLS sigmas) -> (N, C, 24);\n real_5000 / control_2000 = gate2 adapter / shuffled-target control, LoRA\n unmerged, mean-patch final -> (N, C, 768). DINO: 4 threads.\nWindows flattened (object, condition), batches of 10 consecutive windows.\nEvery window is a copy asserted unchanged (prep / tokenize batch snapshot).\nCheck per block (STOP): 20 windows re-embedded bit-identical (DINO: 20 random\nwindows in 2 batches; AION: 2 random whole batches recomputed as batches).\nAdapter: base hash == checkpoint's. Disk floor 35 GiB before every save.\nOutput emb_<enc>_<block>_<size>.npy, p2_embed_<enc>.json.",
+ "blocks": {
+  "main_3377m332_96": {
+   "n_objects": 400,
+   "conditions": [
+    "centered",
+    "x+12",
+    "x+16",
+    "x+24",
+    "x+32",
+    "x+48",
+    "x-24",
+    "y+24"
+   ],
+   "n_windows": 3200,
+   "seconds": 133.1610119342804,
+   "s_per_window": 0.041612816229462626,
+   "reembed_bit_identical": true,
+   "b0_nonfinite_features": 0,
+   "free_GiB": 4.3115234375
+  }
+ },
+ "this_run_total_seconds": 133.1610119342804,
+ "this_run_total_windows": 3200
+}

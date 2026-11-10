@@ -1,0 +1,95 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) devel   2) math
+sh03-03n27.int
+Fri Nov  6 11:32:31 PST 2026
+embed_vit.py: OK
+Loading weights:   0%|          | 0/415 [00:00<?, ?it/s]Loading weights:  24%|██▍       | 99/415 [00:00<00:00, 986.60it/s]Loading weights: 100%|██████████| 415/415 [00:00<00:00, 2702.05it/s]
+MODEL facebook/dinov3-vitl16-pretrain-sat493m f692fa42da72c6797b67cd73494a168d1120d3ee
+WIDTH 1024 LAYERS 24
+NORM checkpoint mean [0.4300000071525574, 0.41100001335144043, 0.29600000381469727] std [0.21299999952316284, 0.15600000321865082, 0.14300000667572021]
+  d1 main_3377m332_96: 10/3200 windows, 19 s
+  d1 main_3377m332_96: 410/3200 windows, 72 s
+  d1 main_3377m332_96: 810/3200 windows, 126 s
+  d1 main_3377m332_96: 1210/3200 windows, 182 s
+  d1 main_3377m332_96: 1610/3200 windows, 237 s
+  d1 main_3377m332_96: 2010/3200 windows, 292 s
+  d1 main_3377m332_96: 2410/3200 windows, 347 s
+  d1 main_3377m332_96: 2810/3200 windows, 402 s
+BLOCK d1 main_3377m332_96: 3200 windows, 456 s (0.1425 s/window); re-embed bit-identical True; free 4.3 GiB
+  d1 main_0728m047_96: 10/3200 windows, 1 s
+  d1 main_0728m047_96: 410/3200 windows, 57 s
+  d1 main_0728m047_96: 810/3200 windows, 112 s
+  d1 main_0728m047_96: 1210/3200 windows, 167 s
+  d1 main_0728m047_96: 1610/3200 windows, 222 s
+  d1 main_0728m047_96: 2010/3200 windows, 277 s
+  d1 main_0728m047_96: 2410/3200 windows, 332 s
+  d1 main_0728m047_96: 2810/3200 windows, 387 s
+BLOCK d1 main_0728m047_96: 3200 windows, 441 s (0.1379 s/window); re-embed bit-identical True; free 4.3 GiB
+  d1 main_0184p052_96: 10/3200 windows, 1 s
+  d1 main_0184p052_96: 410/3200 windows, 55 s
+  d1 main_0184p052_96: 810/3200 windows, 108 s
+  d1 main_0184p052_96: 1210/3200 windows, 162 s
+  d1 main_0184p052_96: 1610/3200 windows, 215 s
+  d1 main_0184p052_96: 2010/3200 windows, 268 s
+  d1 main_0184p052_96: 2410/3200 windows, 322 s
+  d1 main_0184p052_96: 2810/3200 windows, 377 s
+BLOCK d1 main_0184p052_96: 3200 windows, 431 s (0.1346 s/window); re-embed bit-identical True; free 4.3 GiB
+  d1 main_0227m280_96: 10/3200 windows, 1 s
+  d1 main_0227m280_96: 410/3200 windows, 56 s
+  d1 main_0227m280_96: 810/3200 windows, 112 s
+  d1 main_0227m280_96: 1210/3200 windows, 167 s
+  d1 main_0227m280_96: 1610/3200 windows, 222 s
+  d1 main_0227m280_96: 2010/3200 windows, 277 s
+  d1 main_0227m280_96: 2410/3200 windows, 332 s
+  d1 main_0227m280_96: 2810/3200 windows, 387 s
+BLOCK d1 main_0227m280_96: 3200 windows, 440 s (0.1376 s/window); re-embed bit-identical True; free 4.3 GiB
+  d1 main_2118m002_96: 10/3200 windows, 1 s
+  d1 main_2118m002_96: 410/3200 windows, 57 s
+  d1 main_2118m002_96: 810/3200 windows, 111 s
+  d1 main_2118m002_96: 1210/3200 windows, 165 s
+  d1 main_2118m002_96: 1610/3200 windows, 219 s
+  d1 main_2118m002_96: 2010/3200 windows, 274 s
+  d1 main_2118m002_96: 2410/3200 windows, 328 s
+  d1 main_2118m002_96: 2810/3200 windows, 382 s
+BLOCK d1 main_2118m002_96: 3200 windows, 435 s (0.1360 s/window); re-embed bit-identical True; free 4.3 GiB
+  d1 main_1954p237_96: 10/3200 windows, 1 s
+  d1 main_1954p237_96: 410/3200 windows, 56 s
+  d1 main_1954p237_96: 810/3200 windows, 110 s
+  d1 main_1954p237_96: 1210/3200 windows, 165 s
+  d1 main_1954p237_96: 1610/3200 windows, 219 s
+  d1 main_1954p237_96: 2010/3200 windows, 274 s
+  d1 main_1954p237_96: 2410/3200 windows, 329 s
+  d1 main_1954p237_96: 2810/3200 windows, 384 s
+BLOCK d1 main_1954p237_96: 3200 windows, 438 s (0.1367 s/window); re-embed bit-identical True; free 4.3 GiB
+  d1 main_3103m010_96: 10/3200 windows, 1 s
+  d1 main_3103m010_96: 410/3200 windows, 56 s
+  d1 main_3103m010_96: 810/3200 windows, 111 s
+  d1 main_3103m010_96: 1210/3200 windows, 165 s
+  d1 main_3103m010_96: 1610/3200 windows, 219 s
+  d1 main_3103m010_96: 2010/3200 windows, 274 s
+  d1 main_3103m010_96: 2410/3200 windows, 328 s
+  d1 main_3103m010_96: 2810/3200 windows, 382 s
+BLOCK d1 main_3103m010_96: 3200 windows, 435 s (0.1360 s/window); re-embed bit-identical True; free 4.3 GiB
+  d1 main_3444m405_96: 10/3200 windows, 1 s
+  d1 main_3444m405_96: 410/3200 windows, 56 s
+  d1 main_3444m405_96: 810/3200 windows, 110 s
+  d1 main_3444m405_96: 1210/3200 windows, 164 s
+  d1 main_3444m405_96: 1610/3200 windows, 219 s
+  d1 main_3444m405_96: 2010/3200 windows, 273 s
+  d1 main_3444m405_96: 2410/3200 windows, 327 s
+  d1 main_3444m405_96: 2810/3200 windows, 382 s
+BLOCK d1 main_3444m405_96: 3200 windows, 435 s (0.1359 s/window); re-embed bit-identical True; free 4.3 GiB
+P2 d1 DONE (25600 windows this run, 58.5 min)
+main_0728m047_96 shape (400, 8, 2, 1024) WIDTH_OUT 1024 finite True
+main_0184p052_96 shape (400, 8, 2, 1024) WIDTH_OUT 1024 finite True
+main_0227m280_96 shape (400, 8, 2, 1024) WIDTH_OUT 1024 finite True
+main_2118m002_96 shape (400, 8, 2, 1024) WIDTH_OUT 1024 finite True
+main_1954p237_96 shape (400, 8, 2, 1024) WIDTH_OUT 1024 finite True
+main_3103m010_96 shape (400, 8, 2, 1024) WIDTH_OUT 1024 finite True
+main_3444m405_96 shape (400, 8, 2, 1024) WIDTH_OUT 1024 finite True
+main_3377m332_96 shape (400, 8, 2, 1024) WIDTH_OUT 1024 finite True
+total_windows 25600
+RESULT DONE
+Fri Nov  6 12:32:20 PST 2026

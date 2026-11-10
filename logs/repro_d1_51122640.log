@@ -1,0 +1,8 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) devel   2) math
+sh02-03n60.int
+Wed Nov  4 14:41:54 PST 2026
+embed_vit.py: OK
+emb_check exists, stopping

@@ -1,0 +1,33 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) devel   2) math
+sh03-03n56.int
+Wed Nov  4 14:55:24 PST 2026
+embed_vit.py: OK
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 3372.19it/s]
+MODEL facebook/dinov3-vitb16-pretrain-lvd1689m 5931719e67bbdb9737e363e781fb0c67687896bc
+WIDTH 768 LAYERS 12
+NORM imagenet mean [0.48500001430511475, 0.4560000002384186, 0.4059999883174896] std [0.2290000021457672, 0.2240000069141388, 0.22499999403953552]
+  d1 main_3377m332_96: 10/3200 windows, 5 s
+  d1 main_3377m332_96: 410/3200 windows, 21 s
+  d1 main_3377m332_96: 810/3200 windows, 37 s
+  d1 main_3377m332_96: 1210/3200 windows, 53 s
+  d1 main_3377m332_96: 1610/3200 windows, 69 s
+  d1 main_3377m332_96: 2010/3200 windows, 85 s
+  d1 main_3377m332_96: 2410/3200 windows, 101 s
+  d1 main_3377m332_96: 2810/3200 windows, 118 s
+BLOCK d1 main_3377m332_96: 3200 windows, 133 s (0.0416 s/window); re-embed bit-identical True; free 4.3 GiB
+P2 d1 DONE (3200 windows this run, 2.2 min)
+shapes (400, 8, 2, 768) (400, 8, 2, 768) float32 float32
+same_shape True same_ri True reembed_ok True
+slot 0 max 0.000202178955078125 mean 2.0636962696375775e-06
+slot 0 n over 0.001: 0 of 2457600 nonfinite new/old: 0 0
+slot 0 old abs mean 0.2864975750848759 old abs max 5.235747337341309
+slot 0 worst (object, position, dim): (np.int64(2), np.int64(3), np.int64(25))
+slot 1 max 0.00020045042037963867 mean 2.1903430002318907e-06
+slot 1 n over 0.001: 0 of 2457600 nonfinite new/old: 0 0
+slot 1 old abs mean 0.2999317922114404 old abs max 5.460204124450684
+RULE: slot0 max<=0.001, ri equal, reembed True, finite
+RESULT PASS
+Wed Nov  4 14:58:16 PST 2026

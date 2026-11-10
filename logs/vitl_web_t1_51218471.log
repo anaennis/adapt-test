@@ -1,0 +1,25 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) devel   2) math
+sh04-11n16.int
+Thu Nov  5 09:52:46 PST 2026
+embed_vit.py: OK
+Loading weights:   0%|          | 0/415 [00:00<?, ?it/s]Loading weights:  50%|████▉     | 207/415 [00:00<00:00, 2037.44it/s]Loading weights: 100%|██████████| 415/415 [00:00<00:00, 2199.06it/s]
+MODEL facebook/dinov3-vitl16-pretrain-lvd1689m ea8dc2863c51be0a264bab82070e3e8836b02d51
+WIDTH 1024 LAYERS 24
+NORM imagenet mean [0.48500001430511475, 0.4560000002384186, 0.4059999883174896] std [0.2290000021457672, 0.2240000069141388, 0.22499999403953552]
+  d1 main_3377m332_96: 10/3200 windows, 24 s
+  d1 main_3377m332_96: 410/3200 windows, 102 s
+  d1 main_3377m332_96: 810/3200 windows, 173 s
+  d1 main_3377m332_96: 1210/3200 windows, 242 s
+  d1 main_3377m332_96: 1610/3200 windows, 310 s
+  d1 main_3377m332_96: 2010/3200 windows, 379 s
+  d1 main_3377m332_96: 2410/3200 windows, 447 s
+  d1 main_3377m332_96: 2810/3200 windows, 513 s
+BLOCK d1 main_3377m332_96: 3200 windows, 579 s (0.1809 s/window); re-embed bit-identical True; free 4.3 GiB
+P2 d1 DONE (3200 windows this run, 9.6 min)
+shape (400, 8, 2, 1024) WIDTH_OUT 1024 finite True
+n_windows 3200 s_per_window 0.1808940939605236
+RESULT DONE
+Thu Nov  5 10:03:21 PST 2026
